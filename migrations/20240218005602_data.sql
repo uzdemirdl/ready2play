@@ -33,7 +33,7 @@ VALUES (
 
 -- +goose Down
 -- +goose StatementBegin
-TRUNCATE FROM maps;
-TRUNCATE FROM devices;
-TRUNCATE FROM map_points;
+TRUNCATE TABLE maps CASCADE;
+TRUNCATE TABLE devices CASCADE;
+TRUNCATE TABLE map_points CASCADE;
 -- +goose StatementEnd
