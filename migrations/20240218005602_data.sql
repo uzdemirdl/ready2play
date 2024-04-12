@@ -10,6 +10,16 @@ VALUES (
         now(),
         now()
 );
+INSERT INTO maps (uuid,width,height,name,price,created_at,updated_at)
+VALUES (
+        '494bec6a-aaa9-46fe-9c88-eb2067a29eef',
+        10,
+        10,
+        'Room 1',
+        100.00,
+        now(),
+        now()
+);
 INSERT INTO devices (uuid,type,name,created_at,updated_at)
 VALUES (
         'ffd8b514-5d77-4d2e-9c71-6944cb79e4d8',
